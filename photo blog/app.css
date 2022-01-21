@@ -1,0 +1,16 @@
+img {
+  width: 30%;
+  /* margin: 1.5%; */
+  /* an error here, for some reason when i give them the margin colt did in the video it just doesnt work */
+  margin: calc(10% / 6);
+}
+
+nav {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  border-bottom: 2px solid #f1f1f1;
+  width: 30%;
+  margin-left: 1.5%;
+  padding: 1.2em 0;
+  font-family: "Raleway", sans-serif;
+}

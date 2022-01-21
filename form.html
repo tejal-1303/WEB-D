@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Race Registration!</h1>
+    <form>
+      <div>
+        <label for="f_name">First Name</label>
+        <input type="text" id="f_name" />
+        <label for="l_name">Last Name</label>
+        <input type="text" id="l_name" />
+      </div>
+
+      <div>
+        <p>Select a Race:</p>
+
+        <label for="5k">Fun Run 5k</label>
+        <input type="radio" id="5K" name="choose" />
+        <br />
+        <label for="half">Half Marathon</label>
+        <input type="radio" id="half" name="choose" />
+        <br />
+        //value here is what determines what is sent on submitting not Name
+        //name is used to connect the radio buttons with one another
+        <label for="full">Full Marathon</label>
+        <input type="radio" id="full" name="choose" />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" />
+//if you want label before the input then make sure to include it before
+//it is imp dont be dumb bish
+        <label for="password">Password</label>
+        <input type="password" id="password" />
+      </div>
+      <div>
+        <label for="s">Select Age Group</label>
+        <select name="s" id="s">
+          <option>under 18</option>
+          <option>18-30</option>
+          <option>30-50</option>
+          <option>50+</option>
+        </select>
+      </div>
+      <button>Register!</button>
+    </form>
+  </body>
+</html>
